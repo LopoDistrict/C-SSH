@@ -8,7 +8,7 @@ This was made for educational purposes only!
 ```
 sudo apt-get install libssh-dev //get the library -> https://www.libssh.org/
 //change the credentials (server name/ip, username, password)
-g++ -o ssh_cpp ssh.cpp -lssh
+g++ -o cpp_ssh cpp_ssh.cpp -lssh
 ./ssh_cpp
 ```
 It can be used for multiple purposes, such as data communication, server/computer access, data exfiltration and much more.
